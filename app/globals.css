@@ -452,11 +452,9 @@ legend { font-weight: 700; padding: 0 0.3rem; }
 .progress span { display: block; height: 100%; background: #EEDCEE; }
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
-  .story-card, .category-tile, .author-card, .btn, .btn-quiet, .btn-ghost { transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease; }
-  .cover img { transition: transform 180ms ease; }
+  .story-card, .category-tile, .author-card, .btn, .btn-quiet, .btn-ghost { transition: border-color 160ms ease, box-shadow 160ms ease; }
   .story-card:hover { box-shadow: var(--shadow); }
-  .story-card:hover .cover img { transform: scale(1.03); }
-  .category-tile:hover { transform: translateY(-2px); }
+  .category-tile:hover { border-color: rgba(44, 40, 38, 0.4); }
 }
 
 @media (prefers-reduced-motion: reduce) {
