@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.env
+data/*.db
+data/*.db-*
+data/*.db-journal
+data/media/*
+!data/media/.gitkeep
+*.tsbuildinfo
+.DS_Store
